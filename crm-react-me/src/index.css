@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+:root{
+    --color-blue-ligth: #005275;
+    --color-blue-strong: #003D57;
+    --color-white: #FFF;
+    --color-bg: #F5F5F5;
+    --color-edit: #005275;
+    --color-look: #00C01F;
+    --color-delete: #FF4E4E;
+    --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Rowdies', cursive;;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-size: 16px;
+    margin:0;
+}
+
+h1,h2,h3,p,a,ul{
+    margin: 0;
+}
+ul{
+    padding: 0;
+}
